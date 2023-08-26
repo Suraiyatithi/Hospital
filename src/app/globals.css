@@ -25,3 +25,35 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+/* .carousel-container {
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  align-items: center; /* Center items vertically */
+/* }
+
+.carousel-item {
+  flex: 0 0 100%;
+}
+
+.carousel-navigation {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev-button,
+.next-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+} */ 
