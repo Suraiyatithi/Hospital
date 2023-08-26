@@ -4,12 +4,15 @@ import { FaAmbulance, FaBuilding, FaClinicMedical, FaFirstAid, FaHandHoldingMedi
 
 const Service = () => {
     return (
-        <div className='mt-12 text-center'>
-            <div className="text-center">
+        <div className='mt-20 text-center'>
+            <div className="text-center mb-10">
             <h1 className='text-base-400'>OUR SERVICES</h1>
            
            <h1 className='text-4xl '>We Care Our Patients.</h1>
-     <div className="text-center">
+
+       <div className="flex">
+        <div className=""></div>
+        <div className="mx-auto">
      <Image
  src="https://i.ibb.co/JFKjPCT/electrocardiogram-8011509.png"
  width={80} // Use larger dimensions
@@ -17,6 +20,7 @@ const Service = () => {
  alt="Slide 1"
 />
      </div>
+       </div>
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div className="">
