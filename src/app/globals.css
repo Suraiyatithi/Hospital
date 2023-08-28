@@ -57,3 +57,7 @@ body {
   border: none;
   cursor: pointer;
 } */ 
+.carousel {
+  /* Adjust this value as needed */
+  max-height: 1000px;
+}

@@ -33,8 +33,11 @@ const Doctor = () => {
 
   const visibleImages = images.slice(startIndex, startIndex + imagesPerPage);
 
-  return (
-        <div className=' relative mt-20'>
+  return (   
+    <div
+    style={{ backgroundImage: 'url("https://i.ibb.co/KsKCFnn/overhead-view-medical-equipments-pills-isolated-white-backdrop.jpg")' }}
+    className="bg-cover relative mt-20 h-full mb-10"
+  >
 
 <div className="text-center mb-10">
             <h1 className='text-base-400'>OUR Doctor</h1>
@@ -134,6 +137,21 @@ const Doctor = () => {
       </div>
      </div>
         
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 mb-10">
+                <div className="">
+                    <h1 className='text-3xl text-info'>Subscribe to Newsletter</h1>
+                    <p>
+
+Get healthy news and solutions to your problems from our experts!</p>
+                </div>
+                <div className="">
+                <div className="flex">
+    <input type="text" placeholder="Enter your Email" className="input input-bordered input-info w-full max-w-xs" />
+    <button className="btn btn-info ">Submit</button>
+  </div>
+                <small>We Respect Your privacy</small>
+                </div>
             </div>
         </div>
     );

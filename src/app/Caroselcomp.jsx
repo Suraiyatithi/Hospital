@@ -1,33 +1,3 @@
-'use client'
-// import React from "react";
-// import { Carousel } from "react-responsive-carousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
-// import Image from 'next/image'
-
-// const CarouselComponent = () => {
-//   return (
-//     <Carousel>
-//       <div>
-//         <Image src="https://i.ibb.co/6RQzTT5/inspired-barefooted-girl-glasses-standing-one-leg-studio-indoor-photo-enthusiastic-young-woman-check.jpg" 
-//           width={500}
-//       height={500}
-//         alt="Slide 1" />
-//       </div>
-//       <div>
-//         <Image src="https://i.ibb.co/pdN1v7h/portrait-excited-happy-shopaholic-woman-holding-shopping-bags-showing-plastic-credit-card-smi.jpg"
-//           width={500}
-//       height={500} alt="Slide 2" />
-//       </div>
-//       <div>
-//         <Image src="https://i.ibb.co/fG3Mf1S/happy-man-looking-surprised-shopping-bags-buying-souvenirs-vacation-standing-yellow-backg.jpg" 
-//           width={500}
-//       height={500}alt="Slide 3" />
-//       </div>
-//     </Carousel>
-//   );
-// };
-
-// export default CarouselComponent;
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -36,8 +6,8 @@ import { FaBrain, FaClinicMedical, FaUserAlt } from "react-icons/fa";
 
 const CarouselComponent = () => {
   return (
-  <div  className="relative">
-      <Carousel style={{maxHeight:"1200px"}} className="relative">
+  <div className="">
+      <Carousel className="relative">
       <div>
         <Image
           src="https://i.ibb.co/TYZm5yd/healthcare-workers-medicine-insurance-covid-pandemic-concept-dreamy-young-talented-doctor-whi.jpg"
@@ -63,7 +33,7 @@ const CarouselComponent = () => {
         />
       </div>
     </Carousel>
-    <div className="text-black absolute top-3/5 left-1/2  transform -translate-x-1/2 -translate-y-1/2 z-5   w-full h-full">
+    <div className="text-black absolute   transform -translate-x-1/5 -translate-y-1/5 z-5   w-full h-full">
         <div className="grid grid-cols-3 sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
           <div className="">
           <div className="card w-96 bg-base-100">
