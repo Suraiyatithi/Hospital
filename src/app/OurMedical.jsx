@@ -5,7 +5,7 @@ import { FaArrowCircleRight } from 'react-icons/fa';
 const OurMedical = () => {
     return (
         <div>
-            <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+            <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
                 <div className="">
                 <Image
           src="https://i.ibb.co/NnfcDQY/3526872.jpg"
@@ -33,7 +33,7 @@ const OurMedical = () => {
                      providers in the AUS with over 30 years of uality training and experience.</p>
                </div>
                <div className=" mt-8">
-                <button className='btn btn-info text-white'>Learn more <FaArrowCircleRight></FaArrowCircleRight></button>
+                <button className='btn bg-blue-300 text-white'>Learn more <FaArrowCircleRight></FaArrowCircleRight></button>
                </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ const Offer = () => {
       ];
     return (
      
-        <div className='grid grid-cols-2 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 p-7'>
+        <div className='grid  sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 p-7'>
                <div className="">
                <div className=" mb-10">
             <h1 className='text-base-400'>we Offer</h1>
@@ -63,7 +63,7 @@ const Offer = () => {
     Emergency And Critical Case
   </div>
   <div className="collapse-content"> 
-    <div className="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2">
+    <div className="grid  sm:grid-cols-1 lg:grid-cols-2">
         <div className="">
         <Image
  src="https://i.ibb.co/x39gX4F/194-1943739-indian-doctor-hd-png-download.png" 
@@ -87,7 +87,7 @@ const Offer = () => {
     Delivary services
   </div>
   <div className="collapse-content"> 
-  <div className="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2">
+  <div className="grid  sm:grid-cols-1 lg:grid-cols-2">
         <div className="">
         <Image
  src="https://i.ibb.co/pWRVX1P/353-3533165-young-doctor-transpare-young-doctor.jpg"
@@ -111,7 +111,7 @@ const Offer = () => {
     Heart Surgery
   </div>
   <div className="collapse-content"> 
-  <div className="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2">
+  <div className="grid sm:grid-cols-1 lg:grid-cols-2">
         <div className="">
         <Image
  src=   "https://i.ibb.co/KD001wh/455-4554771-doctor-png-female-doctor-transparent-background-png-download.png"
@@ -135,7 +135,7 @@ const Offer = () => {
 Blood Text And X-Ray or Other Tests
   </div>
   <div className="collapse-content"> 
-  <div className="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2">
+  <div className="grid  sm:grid-cols-1 lg:grid-cols-2">
         <div className="">
         <Image
  src=  "https://i.ibb.co/j5V29mr/7-74994-free-png-doctor-png-images-transparent-doctor-images.jpg" 
@@ -159,7 +159,7 @@ Blood Text And X-Ray or Other Tests
   Child Care solution
   </div>
   <div className="collapse-content"> 
-  <div className="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2">
+  <div className="grid  sm:grid-cols-1 lg:grid-cols-2">
         <div className="">
         <Image
  src=  "https://i.ibb.co/KKYY5nV/347-3474591-doctors-22x-stock-photography-hd-png-download.png"

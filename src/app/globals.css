@@ -61,3 +61,24 @@ body {
   /* Adjust this value as needed */
   max-height: 1000px;
 }
+.carousel-slide {
+  position: relative;
+}
+
+.slide-image {
+  position: relative;
+}
+
+.slide-overlay {
+  position: absolute;
+  top: 50%;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.slide-overlay.left {
+  left: 0;
+  transform: translateY(-50%);
+}

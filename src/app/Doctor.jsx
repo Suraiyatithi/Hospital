@@ -12,8 +12,8 @@ const Doctor = () => {
         "https://i.ibb.co/KKYY5nV/347-3474591-doctors-22x-stock-photography-hd-png-download.png"  ,
 
 "https://i.ibb.co/x39gX4F/194-1943739-indian-doctor-hd-png-download.png" ,
-"https://i.ibb.co/SNDc2km/purepng-com-doctorsdoctorsdoctors-and-nursesa-qualified-practitioner-of-medicine-aclinicianmedical-p.png"
-        
+"https://i.ibb.co/SNDc2km/purepng-com-doctorsdoctorsdoctors-and-nursesa-qualified-practitioner-of-medicine-aclinicianmedical-p.png",
+"https://i.ibb.co/513QjHh/gettyimages-479378798-612x612.jpg" 
       ];
     
       const imagesPerPage = 4;
@@ -148,7 +148,7 @@ Get healthy news and solutions to your problems from our experts!</p>
                 <div className="">
                 <div className="flex">
     <input type="text" placeholder="Enter your Email" className="input input-bordered input-info w-full max-w-xs" />
-    <button className="btn btn-info ">Submit</button>
+    <button className="btn bg-blue-300">Submit</button>
   </div>
                 <small>We Respect Your privacy</small>
                 </div>

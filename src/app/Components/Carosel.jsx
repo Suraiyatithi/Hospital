@@ -37,7 +37,7 @@ import { FaBrain, FaClinicMedical, FaUserAlt } from "react-icons/fa";
 const CarouselComponent = () => {
   return (
   <div  className="relative">
-      <Carousel style={{maxHeight:"1200px"}} className="relative">
+      {/* <Carousel style={{maxHeight:"1200px"}} className="relative">
       <div>
         <Image
           src="https://i.ibb.co/TYZm5yd/healthcare-workers-medicine-insurance-covid-pandemic-concept-dreamy-young-talented-doctor-whi.jpg"
@@ -62,9 +62,60 @@ const CarouselComponent = () => {
           alt="Slide 3"
         />
       </div>
-    </Carousel>
-    <div className="text-black absolute top-3/5 left-1/2  transform -translate-x-1/2 -translate-y-1/2 z-5   w-full h-full">
-        <div className="grid grid-cols-3 sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
+    </Carousel> */}
+    <Carousel style={{maxHeight: "1200px"}} className="relative ">
+  <div className="carousel-slide">
+    <div className="slide-image">
+      <Image
+        src="https://i.ibb.co/TYZm5yd/healthcare-workers-medicine-insurance-covid-pandemic-concept-dreamy-young-talented-doctor-whi.jpg"
+        width={1700}
+        height={1400}
+        alt="Slide 1"
+      />
+    </div>
+    <div className="slide-text slide-overlay left">
+      <p className="text-xl font-bold text-left pl-10 pb-5">Welcome to our medical Care Center</p>
+      <h1 className="text-5xl font-bold text-left pb-5 pl-10">We take care our Valuable <br /> Patients health</h1>
+      <p className="text-lg text-left pl-10">I Realize That becoming a doctor i can help all <br /> the people of my country,Also return them their happiness.</p>
+  <p className="text-left pl-10 pt-10"><button className="btn bg-blue-300 text-white">About Us</button> &nbsp; &nbsp; <button className="btn bg-blue-300 text-white">Our Service</button></p>
+    </div>
+  </div>
+  <div className="carousel-slide">
+    <div className="slide-image">
+      <Image
+        src="https://i.ibb.co/5stz07S/image-woman-doctor-listening-patient-lungs-with-stethoscope-doing-medical-checkup-clinic-stand.jpg"
+        width={1700}
+        height={1400}
+        alt="Slide 2"
+      />
+    </div>
+    <div className="slide-text slide-overlay left">
+      <p className="text-xl font-bold text-left pl-10 pb-5">Welcome to our medical Care Center</p>
+      <h1 className="text-5xl font-bold text-left pb-5 pl-10">We take care our Valuable <br /> Patients health</h1>
+      <p className="text-lg text-left pl-10">I Realize That becoming a doctor i can help all <br /> the people of my country,Also return them their happiness.</p>
+  <p className="text-left pl-10 pt-10"><button className="btn bg-blue-300 text-white">About Us</button> &nbsp; &nbsp; <button className="btn bg-blue-300 text-white">Our Service</button></p>
+    </div>
+  </div>
+  <div className="carousel-slide">
+    <div className="slide-image">
+      <Image
+        src="https://i.ibb.co/D44WQLY/disappointed-young-doctor-female-physician-pointing-fingers-down-grimacing-with-dislike-disappro.jpg"
+        width={1700}
+        height={1400}
+        alt="Slide 3"
+      />
+    </div>
+    <div className="slide-text slide-overlay left">
+      <p className="text-xl font-bold text-left pl-10 pb-5">Welcome to our medical Care Center</p>
+      <h1 className="text-5xl font-bold text-left pb-5 pl-10">We take care our Valuable <br /> Patients health</h1>
+      <p className="text-lg text-left pl-10">I Realize That becoming a doctor i can help all <br /> the people of my country,Also return them their happiness.</p>
+  <p className="text-left pl-10 pt-10"><button className="btn bg-blue-300 text-white">About Us</button> &nbsp; &nbsp; <button className="btn bg-blue-300 text-white">Our Service</button></p>
+    </div>
+  </div>
+</Carousel>
+
+    <div className="text-black absolute top-1/5 left-1/2  transform -translate-x-1/2 -translate-y-1/2 z-5   w-full h-full">
+        <div className="grid  sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 ">
           <div className="">
           <div className="card w-96 bg-base-100">
   <figure className="px-10 pt-10">

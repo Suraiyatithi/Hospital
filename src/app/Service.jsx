@@ -22,7 +22,7 @@ const Service = () => {
      </div>
        </div>
             </div>
-            <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div className="">
                 <div className="card card-compact w-96 bg-base-100 ">
   <figure> <FaHeartbeat className='text-blue-400 text-7xl'></FaHeartbeat> </figure>

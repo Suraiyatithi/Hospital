@@ -33,19 +33,19 @@ import { FaBrain, FaClinicMedical, FaUserAlt } from 'react-icons/fa';
 
 const Appointment = () => {
   return (
-    <div className='bg-blue-700 p-8 mt-11 relative text-white'>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-8">
+    <div className='bg-blue-700 p-8 mt-20 relative text-white mb-16'>
+      <div className="grid  sm:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-8">
         <div className="">
           <h1 className='text-lg mb-7'>NEED A DOCTOR FOR CHECK-UP?</h1>
           <p className='text-4xl font-bold mb-3'>Just Make an Appointment</p>
           <p className='text-4xl font-bold mb-10'>and You’re Done!</p>
           <p className='text-2xl mb-12'>Get Your Quote or Call:</p>
           <button className='btn bg-base-800 mb-12'>Get an Appointment</button>
-          <p className='text-6xl font-bold mb-12'>(0080) 123-453-789</p>
+          <p className='text-5xl font-bold mb-12'>(0080) 123-453-789</p>
       
         </div>
         <div className="relative  flex justify-center items-start">
-          <div className="absolute -top-8  transform -translate-x-1/2 -translate-y-1/2 z-10 -right-56   w-full h-full">
+          <div className="absolute -top-8 sm:display-none transform -translate-x-1/2 -translate-y-1/2 z-10 -right-56   w-full h-full">
             <Image
               src="https://i.ibb.co/SNDc2km/purepng-com-doctorsdoctorsdoctors-and-nursesa-qualified-practitioner-of-medicine-aclinicianmedical-p.png"
               width={560} // Use larger dimensions
@@ -56,7 +56,7 @@ const Appointment = () => {
          </div>
       </div> 
       <div className="text-black absolute   transform -translate-x-1/5 -translate-y-1/5 z-5   w-full h-full">
-        <div className="grid grid-cols-3 sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
           <div className="">
           <div className="card w-96 bg-base-100">
   <figure className="px-10 pt-10">
