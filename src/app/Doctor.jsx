@@ -63,7 +63,7 @@ const Doctor = () => {
 <div className="text-center mb-10">
             <h1 className='text-base-400'data-aos="fade-right">OUR Doctor</h1>
            
-           <h1 className='text-4xl 'data-aos="fade-right">Let&apos;s know about Our Speacial Doctor</h1>
+           <h1 className='text-4xl 'data-aos="fade-right">Lets know about Our Speacial Doctor</h1>
 
        <div className="flex">
         <div className=""></div>
