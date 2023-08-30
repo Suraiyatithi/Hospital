@@ -9,6 +9,9 @@ import Appointment from './Appointment'
 import CarouselComponent from './Components/Carosel'
 import Footer from './Footer'
 import Lookingfor from './Lookingfor'
+import Makeappointment from './Makeappointment'
+import Articles from './Articles'
+import Testmonial from './Testmonial'
 
 
 export default function Home() {
@@ -21,6 +24,9 @@ export default function Home() {
   <Doctor></Doctor>
   <Offer></Offer>
 <Appointment></Appointment>
+<Makeappointment></Makeappointment>
+<Testmonial></Testmonial>
+<Articles></Articles>
 <Footer></Footer>
     </main>
   )
