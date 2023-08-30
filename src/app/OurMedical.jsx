@@ -41,7 +41,7 @@ const OurMedical = () => {
                 <div className="">
                     <h1 className='text-base-400'data-aos="fade-left">OUR MEDICAL</h1>
            
-                    <h1 className='text-4xl 'data-aos="fade-left">We're setting Standards in Research what's more, Clinical Care.</h1>
+                    <h1 className='text-4xl 'data-aos="fade-left">We&apos;re setting Standards in Research what&apos;s more, Clinical Care.</h1>
                     <Image
           src="https://i.ibb.co/JFKjPCT/electrocardiogram-8011509.png"
           width={80} // Use larger dimensions
