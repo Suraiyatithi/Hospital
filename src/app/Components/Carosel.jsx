@@ -103,8 +103,8 @@ const CarouselComponent = () => {
    <h1 className='text-slate-200 text-7xl'><FaBrain></FaBrain></h1>
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Years of experience</h2>
-    <p className='text-3xl'>30+</p>
+    <h2 className="card-title text-white">Years of experience</h2>
+    <p className='text-3xl text-white font-bold'>30+</p>
 
   </div>
 </div>
@@ -116,8 +116,8 @@ const CarouselComponent = () => {
    <h1 className='text-slate-200 text-7xl'><FaUserAlt></FaUserAlt></h1>
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Happy Patients</h2>
-    <p className='text-3xl'>40K+</p>
+    <h2 className="card-title text-white">Happy Patients</h2>
+    <p className='text-3xl text-white font-bold'>40K+</p>
 
   </div>
 </div>
@@ -129,8 +129,8 @@ const CarouselComponent = () => {
    <h1 className='text-slate-200 text-7xl'><FaClinicMedical></FaClinicMedical></h1>
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Medical Speacialized</h2>
-    <p className='text-3xl'>100+</p>
+    <h2 className="card-title text-white">Medical Speacialized</h2>
+    <p className='text-3xl text-white font-bold'>100+</p>
 
   </div>
 </div>
