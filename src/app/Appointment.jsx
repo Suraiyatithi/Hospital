@@ -29,7 +29,7 @@ const Appointment = () => {
   }, []);
 
   return (
-    <div className='bg-blue-700 p-8 mt-20 relative text-white mb-16'>
+    <div className='bg-blue-700 p-8 sm:mt-20 lg:mt-56 relative text-white mb-16'>
       <div className="grid  sm:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-8">
         <div className="">
           <h1 className='text-lg mb-7'data-aos="fade-right">NEED A DOCTOR FOR CHECK-UP?</h1>
@@ -52,9 +52,9 @@ const Appointment = () => {
           </div>
          </div>
       </div> 
-      <div className="text-black absolute   transform -translate-x-1/5 -translate-y-1/5 z-5   w-full h-full">
+      <div className="text-black absolute   transform -translate-x-1/5 -translate-y-1/5 z-5 hidden sm:block  w-full h-full">
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
-          <div className="">
+          <div className="hidden sm:block">
           <div className="card  border border-blue-300 shadow-lg w-96 bg-base-100"data-aos="fade-right">
   <figure className="px-10 pt-10">
     {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> */}
@@ -67,7 +67,7 @@ const Appointment = () => {
   </div>
 </div>
           </div>
-          <div className="">
+          <div className="hidden sm:block">
           <div className="card  border border-blue-300 shadow-lg w-96 bg-base-100"data-aos="fade-right">
   <figure className="px-10 pt-10">
     {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> */}
@@ -80,7 +80,7 @@ const Appointment = () => {
   </div>
 </div>
           </div>
-          <div className="">
+          <div className="hidden sm:block">
           <div className="card border border-blue-300 shadow-lg w-96 bg-base-100"data-aos="fade-left">
   <figure className="px-10 pt-10">
     {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> */}

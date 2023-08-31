@@ -42,8 +42,8 @@ const Testmonial = () => {
     return (
         <div className='bg-blue-700 mt-16 p-10'>
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-                <div className="text-white">
-             <p className='text-xl 'data-aos="fade-right">   TESTMONIALS</p>
+                <div className="text-white align-center lg:mt-16">
+             <p className='text-xl mt-6'data-aos="fade-right">   TESTMONIALS</p>
 <h1 className='text-6xl'data-aos="fade-right">What people say about us</h1>
 <p></p>
 
@@ -56,7 +56,7 @@ const Testmonial = () => {
 </div>
 
                 </div>
-                <div className="p-22">
+                <div className="lg:pt-24 lg:pb-24">
                 <Swiper
         slidesPerView={2}
         spaceBetween={30}
@@ -67,7 +67,7 @@ const Testmonial = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-            <div className="p-4 bg-slate-100 rounded-lg"data-aos="fade-left">
+            <div className="p-7 bg-slate-100 rounded-lg"data-aos="fade-left">
                 <div className="">
                     <p className='flex mb-4'><FaStar className='text-yellow-600'></FaStar ><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar></p>
                     <small>I Actually really appriciate your hospital environment and also your hospital.
@@ -87,10 +87,10 @@ const Testmonial = () => {
             </div>
 
         </SwiperSlide>
-        <SwiperSlide>         <div className="p-4 rounded-lg bg-slate-100"data-aos="fade-left">
+        <SwiperSlide>         <div className="p-7 rounded-lg bg-slate-100"data-aos="fade-left">
                 <div className="">
                 <p className='flex mb-4'><FaStar className='text-yellow-600'></FaStar ><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar></p>
-                    <small>The behavour of all the nurse and doctor are so much good.Best hospital
+                    <small>I just love this hospital.The behavour of all the nurse and doctor are so much good.Best hospital
                         I have ever seen before.I Actually really appriciate your hospital environment and also your hospital.</small>
                 </div>
                 <div className="  bg-slate-500 flex mt-4">
@@ -105,7 +105,7 @@ const Testmonial = () => {
                 </div>
             </div>
 </SwiperSlide>
-        <SwiperSlide>         <div className="p-4 rounded-lg bg-slate-100"data-aos="fade-left">
+        <SwiperSlide>         <div className="p-7 rounded-lg bg-slate-100"data-aos="fade-left">
                 <div className="">
                 <p className='flex mb-4'><FaStar className='text-yellow-600'></FaStar ><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar></p>
                     <small>I Actually really appriciate your hospital environment and also your hospital.
@@ -124,7 +124,7 @@ const Testmonial = () => {
                 </div>
             </div>
 </SwiperSlide>
-        <SwiperSlide>         <div className="p-4 rounded-lg bg-slate-100"data-aos="fade-left">
+        <SwiperSlide>         <div className="p-7 rounded-lg bg-slate-100"data-aos="fade-left">
                 <div className="">
                 <p className='flex mb-4'><FaStar className='text-yellow-600'></FaStar ><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar><FaStar  className='text-yellow-600'></FaStar></p>
                     <small>I Actually really appriciate your hospital environment and also your hospital.

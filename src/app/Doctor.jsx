@@ -57,8 +57,10 @@ const Doctor = () => {
   return (   
     <div
     style={{ backgroundImage: 'url("https://i.ibb.co/KsKCFnn/overhead-view-medical-equipments-pills-isolated-white-backdrop.jpg")' }}
-    className="bg-cover relative mt-20 h-full mb-10"
+    className="bg-cover background relative mt-20 h-full mb-10"
   >
+    
+    <div className='bg'>
 
 <div className="text-center mb-10">
             <h1 className='text-base-400'data-aos="fade-right">OUR Doctor</h1>
@@ -128,7 +130,7 @@ Get healthy news and solutions to your problems from our experts!</p>
                 <small data-aos="fade-left">We Respect Your privacy</small>
                 </div>
             </div>
-        </div>
+       </div> </div>
     );
 };
 

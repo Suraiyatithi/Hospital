@@ -12,6 +12,7 @@ import Lookingfor from './Lookingfor'
 import Makeappointment from './Makeappointment'
 import Articles from './Articles'
 import Testmonial from './Testmonial'
+import Support from './Support'
 
 
 export default function Home() {
@@ -27,7 +28,9 @@ export default function Home() {
 <Makeappointment></Makeappointment>
 <Testmonial></Testmonial>
 <Articles></Articles>
+<Support></Support>
 <Footer></Footer>
+
     </main>
   )
 }
