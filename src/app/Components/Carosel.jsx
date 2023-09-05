@@ -17,32 +17,8 @@ const CarouselComponent = () => {
   }, []);
   return (
   <div  className="relative">
-      {/* <Carousel style={{maxHeight:"1200px"}} className="relative">
-      <div>
-        <Image
-          src="https://i.ibb.co/TYZm5yd/healthcare-workers-medicine-insurance-covid-pandemic-concept-dreamy-young-talented-doctor-whi.jpg"
-          width={1700} // Use larger dimensions
-          height={1400} // Use larger dimensions
-          alt="Slide 1"
-        />
-      </div>
-      <div>
-        <Image
-          src="https://i.ibb.co/5stz07S/image-woman-doctor-listening-patient-lungs-with-stethoscope-doing-medical-checkup-clinic-stand.jpg"
-          width={1700} // Use larger dimensions
-          height={1400} // Use larger dimensions
-          alt="Slide 2"
-        />
-      </div>
-      <div>
-        <Image
-          src="https://i.ibb.co/D44WQLY/disappointed-young-doctor-female-physician-pointing-fingers-down-grimacing-with-dislike-disappro.jpg"
-          width={1700} // Use larger dimensions
-          height={1400} // Use larger dimensions
-          alt="Slide 3"
-        />
-      </div>
-    </Carousel> */}
+ 
+    
     <Carousel style={{maxHeight: "1200px"}} className="relative ">
   <div className="carousel-slide relative">
     <div className="slide-image">
@@ -73,7 +49,7 @@ const CarouselComponent = () => {
       <p className="lg:text-xl font-bold text-left pl-10 pb-5">Welcome to our medical Care Center</p>
       <h1 className="sm:text-xl lg:text-5xl font-bold text-left pb-5 pl-10">We take care our Valuable <br /> Patients health</h1>
       <p className="lg:text-lg text-left pl-10">I Realize That becoming a doctor i can help all <br /> the people of my country,Also return them their happiness.</p>
-  <p className="text-left pl-10 sm:pt-4 lg:pt-10"><button className="btn bg-blue-300 text-white">About Us</button> &nbsp; &nbsp; <button className="btn bg-blue-300 text-white">Our Service</button></p>
+  <p className="text-left pl-10 sm:pt-4 lg:pt-10 lg:pb-24"><button className="btn bg-blue-300 text-white">About Us</button> &nbsp; &nbsp; <button className="btn bg-blue-300 text-white">Our Service</button></p>
     </div>
   </div>
   <div className="carousel-slide">
@@ -89,7 +65,7 @@ const CarouselComponent = () => {
       <p className="lg:text-xl font-bold text-left pl-10 pb-5">Welcome to our medical Care Center</p>
       <h1 className="sm:text-xl lg:text-5xl font-bold text-left pb-5 pl-10">We take care our Valuable <br /> Patients health</h1>
       <p className="lg:text-lg text-left pl-10">I Realize That becoming a doctor i can help all <br /> the people of my country,Also return them their happiness.</p>
-  <p className="text-left pl-10 sm:pt-4 lg:pt-10"><button className="btn bg-blue-300 text-white">About Us</button> &nbsp; &nbsp; <button className="btn bg-blue-300 text-white">Our Service</button></p>
+  <p className="text-left pl-10 sm:pt-4 lg:pt-10 lg:pb-24"><button className="btn bg-blue-300 text-white">About Us</button> &nbsp; &nbsp; <button className="btn bg-blue-300 text-white">Our Service</button></p>
     </div>
   </div>
 </Carousel>

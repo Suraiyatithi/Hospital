@@ -29,7 +29,7 @@ export default function Home() {
 <Testmonial></Testmonial>
 <Articles></Articles>
 <Support></Support>
-<Footer></Footer>
+
 
     </main>
   )

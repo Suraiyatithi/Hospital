@@ -75,8 +75,8 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li><a>About</a></li>
-      <li><a>Doctor</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href='/doctor'>Doctor</a></li>
       <li><a>Department</a></li>
       <li><a>Blog</a></li>
       <li className="text-blue-300 text-xl"><a href=""><FaSearch></FaSearch></a></li>
