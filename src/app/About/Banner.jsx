@@ -58,43 +58,43 @@ make things weel again</h1>
         <div className="absolute top-1/2  transform -translate-x-1/5 -translate-y-1/5 z-5 mb-96 p-24  w-full h-full">
        
                 <div className="grid lg:grid-cols-5 sm:grid-cols-1 md:grid-cols-2">
-<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6 text-center bg-slate-200 ">
+<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6 text-center bg-slate-200 "data-aos="fade-right">
 <h1 className='text-center pt-6 pb-6 ml-16 pr-6'><FaUserAlt className='text-blue-300 text-7xl'/></h1>
 <p>Person Care</p>
 </div>
-<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200">
+<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200"data-aos="fade-right">
 <h1 className='text-center pt-6 pb-6 ml-16 pr-6'><FaBrain className='text-blue-300 text-7xl'/></h1>
 <p>Brain Care</p>
 </div>
-<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200">
+<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200"data-aos="fade-right">
 <h1 className='text-center pt-6 pb-6 ml-16 pr-6'><FaEye className='text-blue-300 text-7xl'/></h1>
 <p>Eye Care</p>
 </div>
-<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200">
+<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200"data-aos="fade-left">
 <h1 className='text-center pt-6 pb-6 ml-16 pr-6'><FaHeart className='text-blue-300 text-7xl'/></h1>
 <p>Heart Care</p>
 </div>
-<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200">
+<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200"data-aos="fade-left">
 <h1 className='text-center pt-6 pb-6 ml-16 pr-6'><FaTeeth className='text-blue-300 text-7xl'/></h1>
 <p>Dental Care</p>
 </div>
-<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200">
+<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200"data-aos="fade-right">
 <h1 className='text-center pt-6 pb-6 ml-16 pr-6'><FaBaby className='text-blue-300 text-7xl'/></h1>
 <p>Baby Care</p>
 </div>
-<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200">
+<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200"data-aos="fade-right">
 <h1 className='text-center pt-6 pb-6 ml-16 pr-6'><FaDisease className='text-blue-300 text-7xl'/></h1>
 <p>Health Care</p>
 </div>
-<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200">
+<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200"data-aos="fade-right">
 <h1 className='text-center pt-6 pb-6 ml-16 pr-6'><FaHandHolding className='text-blue-300 text-7xl'/></h1>
 <p>Normal Care</p>
 </div>
-<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200">
+<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200"data-aos="fade-left">
 <h1 className='text-center pt-6 pb-6 ml-16 pr-6'><FaLaugh className='text-blue-300 text-7xl'/></h1>
 <p>Mental Care</p>
 </div>
-<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200">
+<div className="border border-blue-300 pt-10 pb-10 pl-6 pr-6  text-center bg-slate-200"data-aos="fade-left">
 <h1 className='text-center pt-6 pb-6 ml-16 pr-6'><FaUserAlt className='text-blue-300 text-7xl'/></h1>
 <p>Person care</p>
 </div>
