@@ -27,7 +27,7 @@ const Service =()=>{
   }, []);
   
     return (
-        <div className='mt-20 text-center'>
+        <div className='sm:mt-12 lg:mt-56 md:mt-12 text-center'>
             <div className="text-center mb-10" data-aos="fade-right">
             <h1 className='text-base-400'>OUR SERVICES</h1>
            

@@ -70,7 +70,7 @@ const CarouselComponent = () => {
   </div>
 </Carousel>
 
-    <div className="text-black absolute   transform -translate-x-1/6 -translate-y-1/3 z-5 hidden sm:block  w-full h-full">
+    <div className="text-black absolute   transform -translate-x-1/6 -translate-y-1/4 z-5 hidden sm:block  w-full h-full">
         <div className="grid  sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 ">
           <div className="hidden sm:block">
           <div className="card bg-blue-600 border shadow-lg w-96 ">

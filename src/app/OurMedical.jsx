@@ -27,7 +27,7 @@ const OurMedical = () => {
       }, []);
       
     return (
-        <div>
+        <div className='sm:mt-12 md:mt-24 lg:mt-56'>
             <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
                 <div className="">
                 <Image
