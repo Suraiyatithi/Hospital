@@ -91,7 +91,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="  hidden sm:block navbar-end">
-   <a className="btn ml-20 bg-blue-300 text-white"> Make Appointment <FaArrowRight></FaArrowRight></a>
+   <a className="btn ml-12 bg-blue-300 text-white"> Make Appointment <FaArrowRight></FaArrowRight></a>
   </div>
 </div>
     
