@@ -24,9 +24,9 @@ const Footer = () => {
         };
       }, []);
     return (
-        // <div className='bg-blue-950 text-white mt-96 '>
-        <div   style={{ backgroundImage: 'url("https://i.ibb.co/27fKSjf/istockphoto-865577704-170667a.webp")', backgroundColor: 'rgba(0, 0, 0, 0.7)' }}
-        className="bg-cover footerbg  relative mt-12 text-white  h-full"
+        // <div className='bg-blue-950 text-white mt-96 '> style={{ backgroundImage: 'url("https://i.ibb.co/27fKSjf/istockphoto-865577704-170667a.webp")', backgroundColor: 'rgba(0, 0, 0, 0.7)'}}
+        <div 
+        className="bg-blue-700 footerbg  relative mt-12 text-white  h-full"
        >
          
             <div className=" p-10">
