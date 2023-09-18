@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect }  from 'react';
+import React, {useEffect }  from 'react';
 import { FaBaby, FaBrain, FaDisease, FaEye, FaHandHolding, FaHandHoldingMedical, FaHeart, FaLaugh, FaResearchgate, FaTeeth, FaUserAlt } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

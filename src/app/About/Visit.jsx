@@ -6,25 +6,26 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Visit = () => {
-    const triggerAnimations = () => {
-        AOS.refresh(); // Refresh AOS to trigger animations
-      };
-      
-      useEffect(() => {
-        // Initialize AOS
-        AOS.init({
-          duration: 1000,
-          once: true,
-        });
-      
-        // Attach the scroll event listener
-        window.addEventListener('scroll', triggerAnimations);
-      
-        // Clean up the event listener on component unmount
-        return () => {
-          window.removeEventListener('scroll', triggerAnimations);
-        };
-      }, []);
+  const triggerAnimations = () => {
+    AOS.refresh(); // Refresh AOS to trigger animations
+  };
+  
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  
+    // Attach the scroll event listener
+    window.addEventListener('scroll', triggerAnimations);
+  
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('scroll', triggerAnimations);
+    };
+  }, []);
+  
       
     return (
         <div>

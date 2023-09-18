@@ -1,3 +1,4 @@
+import React from 'react';
 import Banner from "./Banner";
 import Upabout from "./Upabout";
 import Visit from "./Visit";
