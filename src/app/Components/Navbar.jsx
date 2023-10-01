@@ -51,7 +51,7 @@ const Navbar = () => {
         </li>
         <li><Link href={"/about"}>About</Link></li>
       <li><Link href={"/doctor"}>Doctor</Link></li>
-      <li><a>Department</a></li>
+      <li><Link href={"/department"}>Department</Link></li>
       <li><Link href={"/blog"}>Blog</Link></li>
       <li><Link href={"/login"}>Login</Link></li>
         <li><FaSearch></FaSearch></li>
@@ -82,7 +82,7 @@ const Navbar = () => {
       </li>
       <li><Link href={"/about"}>About</Link></li>
       <li><Link href={"/doctor"}>Doctor</Link></li>
-      <li><a>Department</a></li>
+      <li><Link href={"/department"}>Department</Link></li>
       <li><Link href={"/blog"}>Blog</Link></li>
       <li><Link href={"/login"}>Login</Link></li>
       <li className="text-blue-300 text-xl"><a href=""><FaSearch></FaSearch></a></li>
