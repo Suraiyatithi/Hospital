@@ -7,7 +7,7 @@ import Visit from "./Visit";
 const Aboutpage = () => {
     return (
         <div>
-               <Upabout></Upabout>
+               
                <Visit></Visit>
        <Banner></Banner>
     
