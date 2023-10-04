@@ -1,11 +1,12 @@
 import React from 'react';
-import DepBanner from './depBanner';
+
 import Offer from '../Offer';
+import BannerD from './BannerD';
 
 const page = () => {
     return (
         <div>
-            <DepBanner></DepBanner>
+        <BannerD></BannerD>
             <Offer></Offer>
         </div>
     );
